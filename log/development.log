@@ -4115,3 +4115,459 @@ Processing by PostImagesController#show as HTML
 Completed 200 OK in 611ms (Views: 567.6ms | ActiveRecord: 11.6ms)
 
 
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:28:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (59.8ms)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 11.5ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___2228876055330228916_70143160187040'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:29:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (53.2ms)
+Completed 500 Internal Server Error in 167ms (ActiveRecord: 1.8ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___2228876055330228916_70143162534660'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:29:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (38.9ms)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___2228876055330228916_46988377084960'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:31:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (44.5ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 10.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__131697804053103135_70203860124200'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:33:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (39.5ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__131697804053103135_70203862562300'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:33:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (39.9ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__131697804053103135_47176874948380'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:33:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (39.5ms)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__131697804053103135_47176884563480'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:35:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (39.2ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__131697804053103135_70203857774920'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:35:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (38.9ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__131697804053103135_70203860724440'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:36:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (43.1ms)
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 10.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___4465716372865250600_47286455669020'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:36:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (42.1ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render 'post_images/list', post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___4465716372865250600_69834830941160'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:37:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (41.2ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render "post_images/list", post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___4465716372865250600_47286445790500'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:37:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (45.1ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render "post_images/list", post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___4465716372865250600_47286455334440'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:39:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (38.6ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 1.8ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render "post_images/list", post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___4465716372865250600_69834758960200'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:39:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (39.2ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render "post_images/list", post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb___4465716372865250600_69834829097000'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:40:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (43.0ms)
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 8.8ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render "post_images/list", post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__2933477484270074201_47355774324380'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:41:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  Rendered post_images/index.html.erb within layouts/application (38.7ms)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial post_images/_list with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/meshiterro/app/views"
+  * "/var/lib/gems/2.5.0/gems/kaminari-core-1.1.1/app/views"
+  * "/var/lib/gems/2.5.0/gems/devise-4.5.0/app/views"
+):
+    1: <%= render "post_images/list", post_images: @post_images %>
+  
+app/views/post_images/index.html.erb:1:in `_app_views_post_images_index_html_erb__2933477484270074201_69855701795720'
+Started GET "/post_images" for 10.0.2.2 at 2018-11-04 08:44:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering post_images/index.html.erb within layouts/application
+  [1m[36mPostImage Load (1.4ms)[0m  [1m[34mSELECT  "post_images".* FROM "post_images" ORDER BY "post_images"."id" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/post_images/_list.html.erb:8
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/_list.html.erb:23
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/_list.html.erb:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 10]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/_list.html.erb:23
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 9]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/_list.html.erb:23
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 8]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/_list.html.erb:23
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 7]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_images"[0m
+  ↳ app/views/post_images/_list.html.erb:43
+  Rendered post_images/_list.html.erb (1635.2ms)
+  Rendered post_images/index.html.erb within layouts/application (1657.3ms)
+Completed 200 OK in 2706ms (Views: 2663.3ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/post_images/11" for 10.0.2.2 at 2018-11-04 08:44:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mPostImage Load (1.4ms)[0m  [1m[34mSELECT  "post_images".* FROM "post_images" WHERE "post_images"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/post_images_controller.rb:22
+  Rendering post_images/show.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:18
+  [1m[36mFavorite Exists (1.4ms)[0m  [1m[34mSELECT  1 AS one FROM "favorites" WHERE "favorites"."post_image_id" = ? AND "favorites"."user_id" = ? LIMIT ?[0m  [["post_image_id", 11], ["user_id", 1], ["LIMIT", 1]]
+  ↳ app/models/post_image.rb:12
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites" WHERE "favorites"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:34
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:40
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:55
+  [1m[36mPostComment Load (1.2ms)[0m  [1m[34mSELECT "post_comments".* FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:58
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:64
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:64
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:64
+  Rendered post_images/show.html.erb within layouts/application (76.3ms)
+Completed 200 OK in 534ms (Views: 489.5ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/post_images/11" for 10.0.2.2 at 2018-11-04 08:44:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostImagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mPostImage Load (1.5ms)[0m  [1m[34mSELECT  "post_images".* FROM "post_images" WHERE "post_images"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/post_images_controller.rb:22
+  Rendering post_images/show.html.erb within layouts/application
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:18
+  [1m[36mFavorite Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "favorites" WHERE "favorites"."post_image_id" = ? AND "favorites"."user_id" = ? LIMIT ?[0m  [["post_image_id", 11], ["user_id", 1], ["LIMIT", 1]]
+  ↳ app/models/post_image.rb:12
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites" WHERE "favorites"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:34
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:40
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:55
+  [1m[36mPostComment Load (1.6ms)[0m  [1m[34mSELECT "post_comments".* FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/show.html.erb:58
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:64
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:64
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/post_images/show.html.erb:64
+  Rendered post_images/show.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 659ms (Views: 614.1ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/users/1" for 10.0.2.2 at 2018-11-04 08:44:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mPostImage Load (1.9ms)[0m  [1m[34mSELECT  "post_images".* FROM "post_images" WHERE "post_images"."user_id" = ? ORDER BY "post_images"."id" DESC LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/post_images/_list.html.erb:8
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 11]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 10]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 9]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 8]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_comments" WHERE "post_comments"."post_image_id" = ?[0m  [["post_image_id", 7]]
+  ↳ app/views/post_images/_list.html.erb:36
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "post_images" WHERE "post_images"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/post_images/_list.html.erb:43
+  Rendered post_images/_list.html.erb (180.4ms)
+  Rendered users/show.html.erb within layouts/application (224.4ms)
+Completed 200 OK in 813ms (Views: 763.1ms | ActiveRecord: 15.5ms)
+
+
