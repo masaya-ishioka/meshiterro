@@ -7,7 +7,6 @@
           <div class="post-meta-top">
             <div class="post-image">
               <%= attachment_image_tag @post_image, :image %>
-                <!-- <img src="images/sample-post1.jpg"> -->
             </div>
           </div>
 
@@ -47,7 +46,7 @@
               </li>
             </ul>
             <div class="post-content-inner mt-20">
-              <p>ここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキストここにテキスト</p>
+              <%= @post_image.caption %>
             </div>
           </div>
 
@@ -62,8 +61,7 @@
                 <div class="comment-body bb">
                   <div class="comment-avatar">
                     <div class="avatar">
-                      <!-- <img src="images/sample-author1.jpg"> -->
-                      <%= image_tag('sample-author1.jpg', style: "width: 60px; height: 60px;") %>
+                      <%= attachment_image_tag post_comment.user, :profile_image, :fill, 60, 60, fallback: "no_image.jpg" %>
                     </div>
                   </div>
                   <div class="comment-text">
@@ -91,7 +89,7 @@
           <%= form_for [@post_image,@post_comment] do |f| %>
             <div class="row">
               <div class="col-sm-12">
-                <%= f.text_area :comment, rows:'5', class: "form-control",placeholder: "コメントをここに" %>
+                 <%= f.text_field :comment, class: "form-control",placeholder: "コメントをここに" %>
               </div>
             </div>
             <%= f.submit "送信する", class: "btn btn-lg btn-base-1 mt-20 pull-right" %>
